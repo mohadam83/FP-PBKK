@@ -20,10 +20,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/home/index1">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/home/index">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="/home/rekap">Rekap Donasi</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/home/index1">Donasi</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="/home/logout">Logout</a>
@@ -36,7 +39,8 @@
   </div>
 </nav>
 
-<h2>Hasil rekap kategori apa ?</h2>
+<h2>Hasil rekap, kategori apa ?</h2>
+<p>(Uang tunai, bahan makanan, obat)</p>
 
 <?php echo $this->tag->form("home/rekaphasil"); ?>
     <p>
@@ -45,7 +49,7 @@
     </p>
 
     <p>
-        <?php echo $this->tag->submitButton("Next"); ?>
+        <?php echo $this->tag->submitButton("Hasil Rekap"); ?>
         
     </p>
 
