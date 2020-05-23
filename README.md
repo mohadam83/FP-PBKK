@@ -12,4 +12,4 @@ Fitur - fitur :
 3. Login / Register
     Fitur ini sebagai fitur agar user dapat melakukan sumbangan / donasi. Untuk memverifikasi identitas pengguna penyumbang.
     
-Untuk screenshoot akan dilampirkan di luar file README.md ini di dalam folder screenshot
+Untuk screenshoot akan dilampirkan di luar file README.md ini dengan nama akan sesuai fitur
